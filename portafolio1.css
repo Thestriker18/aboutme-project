@@ -1,0 +1,48 @@
+/* Reset some default browser styles for consistency */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a base font size and family for better readability */
+  body {
+    background-color:rgb(168, 168, 234) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Style the header with a background color and center the text */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Add some spacing and styling for headings and paragraphs */
+  h1, h2, h3 {
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  p {
+    background-color: white;
+    border-radius: 25px;
+   text-align: center;
+    margin: 10px 0;
+  }
+  .container {
+    align-items:center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  img{
+    border-radius: 50px;
+    max-width: 400px;
+  }  
